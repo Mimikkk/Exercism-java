@@ -4,10 +4,136 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/armstrong-numbers" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/armstrong-numbers" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/darts" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/darts" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/dnd-character" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/dnd-character" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/gigasecond" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/gigasecond" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/grains" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/grains" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hamming" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/hamming" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/hello-world" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/hello-world" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/leap" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/leap" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/pangram" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/pangram" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/resistor-color" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/resistor-color" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/resistor-color-duo" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/resistor-color-duo" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/reverse-string" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/reverse-string" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/rna-transcription" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/rna-transcription" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/space-age" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/space-age" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/two-fer" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/two-fer" />
           </set>
         </option>
       </GradleProjectSettings>
