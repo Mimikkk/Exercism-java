@@ -1,0 +1,6 @@
+# Project exclude paths
+/hello-world/.gradle/
+/hello-world/build/
+/hello-world/build/classes/java/main/
+/hello-world/build/classes/java/test/
+/out/
