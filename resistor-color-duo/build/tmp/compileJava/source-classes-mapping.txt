@@ -1,2 +1,3 @@
 ResistorColorDuo.java
  ResistorColorDuo
+ ResistorColorDuo$1

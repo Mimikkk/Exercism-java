@@ -1,7 +1,10 @@
+import java.util.Collection;
+import java.util.Collections;
+
 class ReverseString {
 
-    String reverse(String inputString) {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+    String reverse(String str) {
+        return new StringBuilder(str).reverse().toString();
     }
   
 }
