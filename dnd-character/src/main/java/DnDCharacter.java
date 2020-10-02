@@ -1,39 +1,51 @@
+import java.util.Arrays;
+import java.util.List;
+import java.util.Random;
+
 class DnDCharacter {
+    private final int strength = ability();
+    private final int dexterity = ability();
+    private final int constitution = ability();
+    private final int intelligence = ability();
+    private final int wisdom = ability();
+    private final int charisma = ability();
 
-    int ability() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+    static int ability() {
+        int[] rolls = new Random().ints(4, 1, 7).toArray();
+        int min = Arrays.stream(rolls).min().orElse(-1);
+
+        return Arrays.stream(rolls).sum() - min;
     }
 
-    int modifier(int input) {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
-    }
-
-    int getStrength() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
-    }
-
-    int getDexterity() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
-    }
-
-    int getConstitution() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
-    }
-
-    int getIntelligence() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
-    }
-
-    int getWisdom() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
-    }
-
-    int getCharisma() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+    int modifier(int mod) {
+        return Math.floorDiv(mod-10, 2);
     }
 
     int getHitpoints() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        return 10 + modifier(constitution);
     }
 
+    public int getStrength() {
+        return strength;
+    }
+
+    public int getDexterity() {
+        return dexterity;
+    }
+
+    public int getIntelligence() {
+        return intelligence;
+    }
+
+    public int getWisdom() {
+        return wisdom;
+    }
+
+    public int getCharisma() {
+        return charisma;
+    }
+
+    public int getConstitution() {
+        return constitution;
+    }
 }
